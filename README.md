@@ -29,4 +29,7 @@ testInCate2 in cate2
 test in cate1
 ```
 
+Summary:
+The method in last static library linked in takes affect in run time.
+
 
