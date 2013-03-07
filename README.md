@@ -5,8 +5,9 @@ Tests for Objective C
 
 * Test 1 - CategoryConflictTestProject
 
-Test Objective C category conflicts when methods duplicates in static library.
+Result : Objective C category conflicts when methods duplicates in static library.
 
+Solution : Use prefix for category methods to avoid conflicts (ugly, but useful)
 
 ```
 // Test code
@@ -30,3 +31,8 @@ test in cate1
 ```
 
 
+* Test 2 - StaticLibDuplicatedSymbol
+
+Result : Symbols duplcate when static libraries have the same implements.
+
+Solution : Define two targets, one includes the common libs, the other doesn't.
