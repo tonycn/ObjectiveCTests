@@ -84,4 +84,7 @@ Tests for Objective C
 	
 	
 
+Summary:
+The method in last static library linked in takes affect in run time.
+
 
