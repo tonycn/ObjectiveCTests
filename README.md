@@ -55,7 +55,7 @@ Tests for Objective C
 	139K Mar 10 11:17 test2.plist 				test1 : different strings
 	
 	123K Mar 10 11:17 test2_1.plist 			[NSArray writeToFile:atomatically:]
-	6.3K Mar 10 11:17 test2_2.plist 			test2 : archive with same string
+	6.3K Mar 10 11:17 test2_2.plist 			test2 : archive with same string object ref
 	
 	132K Mar 10 11:17 test3_1.plist 			[NSArray writeToFile:atomatically:]
 	 63K Mar 10 11:17 test3_2.plist 			test3_withArchiveAndGzip
