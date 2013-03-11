@@ -38,6 +38,8 @@ Tests for Objective C
 	* Result : Symbols duplcate when static libraries have the same implements.
 
 	* Solution : Define two targets, one includes the common libs, the other doesn't.
+	* Summary: The last static library linked takes affect in run time.
+ 
 
 
 * Test 3 - NSArraySerializationTest
@@ -70,21 +72,4 @@ Tests for Objective C
 		 
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-Summary:
-The method in last static library linked in takes affect in run time.
-
 
